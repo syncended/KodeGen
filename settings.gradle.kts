@@ -3,6 +3,9 @@ plugins {
 }
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
+include("builder:api")
+include("builder:processor")
+
 include("mapper:api")
 include("mapper:processor")
 
